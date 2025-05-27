@@ -1,30 +1,30 @@
 {
   "123": {
     "english": {
-      "name": "Inter Mediate Gear Box",
-      "description": "Used for cleaning"
+      "name": "Intermediate Gearbox",
+      "description": "Works with braking and differential systems to control the relative speed of each track movement"
     },
     "tamil": {
-      "name": "சோப்பு",
-      "description": "சுத்தம் செய்வதற்காக பயன்படுத்தப்படுகிறது"
+      "name": "இடைநிலை கியர்பாக்ஸ்",
+      "description": "ஒவ்வொரு பாதை இயக்கத்தின் ஒப்பீட்டு வேகத்தைக் கட்டுப்படுத்த பிரேக்கிங் மற்றும் வேறுபட்ட அமைப்புகளுடன் செயல்படுகிறது."
     },
     "hindi": {
-      "name": "साबुन",
-      "description": "सफाई के लिए उपयोग किया जाता है"
+      "name": "इंटरमीडिएट गियरबॉक्स",
+      "description": "प्रत्येक ट्रैक मूवमेंट की सापेक्ष गति को नियंत्रित करने के लिए ब्रेकिंग और डिफरेंशियल सिस्टम के साथ काम करता है"
     }
   },
   "456": {
     "english": {
-      "name": "Side Gear Box",
-      "description": "Used for brushing teeth"
+      "name": "Side Gearbox",
+      "description": "Transmits power from the main or intermediate gearbox to the drive sprockets on each side of the tank"
     },
     "tamil": {
-      "name": "பல்தூள்",
-      "description": "பற்களை துலக்க பயன்படுத்தப்படுகிறது"
+      "name": "பல்தூள்பக்கவாட்டு கியர்பாக்ஸ்",
+      "description": "பிரதான அல்லது இடைநிலை கியர்பாக்ஸிலிருந்து தொட்டியின் ஒவ்வொரு பக்கத்திலும் உள்ள டிரைவ் ஸ்ப்ராக்கெட்டுகளுக்கு சக்தியை கடத்துகிறது."
     },
     "hindi": {
-      "name": "टूथपेस्ट",
-      "description": "दाँतों को साफ करने के लिए उपयोग किया जाता है"
+      "name": "साइड गियरबॉक्स",
+      "description": "मुख्य या मध्यवर्ती गियरबॉक्स से टैंक के प्रत्येक तरफ ड्राइव स्प्रोकेट तक शक्ति संचारित करता है"
     }
   }
 }
