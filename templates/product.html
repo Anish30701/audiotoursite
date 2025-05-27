@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+        }
+        audio {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    {% if product %}
+        <h2>Product Details</h2>
+        <p><strong>Name:</strong> {{ product.name }}</p>
+        <p><strong>Number:</strong> {{ product.number }}</p>
+        <p><strong>Description:</strong> {{ product.desc }}</p>
+    {% else %}
+        <h2>{{ message }}</h2>
+    {% endif %}
+
+    <!-- Play generated audio -->
+    <audio controls autoplay>
+        <source src="{{ url_for('static', filename='audio.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
